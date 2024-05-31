@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행복은간장밥 로그인</title>
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/member.css">
+    <script src="../assets/js/script.js"></script>
+
+</head>
+
+<body>
+    <header id="header" class="clear">
+        <nav class="">
+            <ul id="gnb">
+                <li>
+                    <a href="../brand/brand_story.html" class="depth1">행복은 간장밥</a>
+                    <ul class="depth2">
+                        <li><a href="../brand/brand_story.html">브랜드 스토리</a></li>
+                        <li><a href="../brand/brand_story.html">PR센터</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../franchise/faq.html" class="depth1">프랜차이즈</a>
+                    <ul class="depth2">
+                        <li><a href="../franchise/faq.html">성공전략</a></li>
+                        <li><a href="../franchise/faq.html">창업안내</a></li>
+                        <li><a href="../franchise/faq.html">FAQ</a></li>
+                        <li><a href="../franchise/faq.html">가맹상담</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../store/find_store.html" class="depth1">매장 안내</a>
+                </li>
+                <li class="logo_bg">
+                    <h1 class="logo"><a href="../index.html"><img src="../assets/images/logo_brown.png"
+                                alt="행복은간장밥로고"></a></h1>
+                </li>
+                <li>
+                    <a href="../menu/rice_list.html" class="depth1">메뉴 소개</a>
+                    <ul class="depth2">
+                        <li><a href="../menu/rice_list.html">세트메뉴</a></li>
+                        <li><a href="../menu/rice_list.html">특별메뉴</a></li>
+                        <li><a href="../menu/rice_list.html">밥류</a></li>
+                        <li><a href="../menu/rice_list.html">면류</a></li>
+                        <li><a href="../menu/rice_list.html">샐러드류</a></li>
+                        <li><a href="../menu/rice_list.html">곁들임</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../board/notice_list.html" class="depth1">소통공간</a>
+                    <ul class="depth2">
+                        <li><a href="../board/notice_list.html">공지사항</a></li>
+                        <li><a href="../board/notice_list.html">고객의 소리</a></li>
+                    </ul>
+                </li>
+                <li class="util">
+                    <a href="../member/login.html" class="login">로그인</a>
+                    <a href="../franchise/faq.html" class="inquiry">문의하기</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="path_box">
+            <ul>
+                <li><a href="../index.html"><img src="../assets/images/ico_path_box_home.svg" alt="홈"></a></li>
+                <li><span>로그인</span></li>
+            </ul>
+        </div>
+        <div id="cont_wrap">
+            <div id="login_wrap">
+                <div class="tit_box">
+                    <h2>로그인<span>Login</span></h2>
+                    <p>행복은 간장밥만의 특별한 회원혜택을 만나보세요.</p>
+                </div>
+                <form action="../index.html" onsubmit="" name="loginForm" id="loginForm">
+                    <fieldset>
+                        <legend>회원로그인</legend>
+                        <div class="form_box">
+                            <div class="inp_row row">
+                                <span class="inp_txt">
+                                    <input type="text" id="userId" placeholder="아이디를 입력하세요.(정답: sayhello)">
+                                </span>
+                                <p class="err_msg id_msg">에러 메세지</p>
+                            </div>
+                            <div class="inp_row row">
+                                <span class="inp_txt">
+                                    <input type="password" id="userPw" placeholder="비밀번호를 입력하세요.(정답: hello)">
+                                </span>
+                                <p class="err_msg pw_msg">에러 메세지</p>
+                            </div>
+                            <div class="chk_row row">
+                                <p class="check">
+                                    <input type="checkbox" id="idSave">
+                                    <label for="idSave">아이디저장</label>
+                                </p>
+                                <p class="find">
+                                    <a href="#">아이디 찾기/비밀번호 찾기</a>
+                                </p>
+                            </div>
+                            <div class="btn_row row">
+                                <button type="submit" id="btn_submit" class="btn_login btn_fil">로그인</button>
+                                <a href="join_step1.html" class="btn_join  btn_out">회원가입</a>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer_inner clear">
+            <a href="index.html" class="logo_vtc"><img src="../assets/images/logo_vertical.png" alt="행복은간장밥"></a>
+            <div class="footer_top clear">
+                <div class="footer_links left">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">채용</a></li>
+                        <li><a href="#">가맹점 문의</a></li>
+                        <li><a href="#">제휴문의</a></li>
+                        <li><a href="#">단체/기업구매</a></li>
+                    </ul>
+                </div>
+                <div class="sns right">
+                    <a href="#">페이스북</a>
+                    <a href="#">인스타그램</a>
+                    <a href="#">블로그</a>
+                </div>
+            </div>
+            <div class="footer_btm clear">
+                <div class="about_us left">
+                    <ul>
+                        <li>상호: 행복은간장밥</li>
+                        <li>대표: 홍 찬</li>
+                        <li>사업자 등록번호: 581-07-01133</li>
+                    </ul>
+                </div>
+                <div class="address left">
+                    <ul>
+                        <li>주소: 서울시 서대문구 연세로 2다길 11-3</li>
+                        <li>E-mail: haengbab@naver.com</li>
+                        <li>&copy; 2024 행복은간장밥. All Rights Reserved.</li>
+                    </ul>
+                </div>
+                <div class="number right">
+                    대표번호<br>070-8865-0935
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

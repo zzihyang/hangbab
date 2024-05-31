@@ -1,0 +1,60 @@
+
+/********************* 메인 슬라이드영역 *********************/
+.mainSlide { width: 100vw; height: 100vh; margin-top: 80px; } 
+.mainSlide img { width: 100%; height: 100%; } 
+
+/********************* 컨테이너 영역 *********************/
+#container { max-width: 1320px; margin: 0 auto; } 
+
+/* 공통영역 */
+.body { background-color: #F8F0E8; } 
+.sec { padding: 200px 0; position: relative;max-width: 1320px; } 
+.en { color: #A68C6F; font-size: 28px; line-height: 1.5; } 
+.ko { font-size: 34px; font-weight: 600; margin-top: 10px; } 
+.exp { font-size: 20px; line-height: 1.5; margin-top: 30px; } 
+
+/********************* 섹션1 영역 *********************/
+#sec1 .box_wrap { margin: 0 auto; width: 1130px; height: 750px; position: relative; } 
+#sec1 .txt_area { position: absolute; right: 0; top: 55px; text-align: center; } 
+#sec1 .txt_area .logo_hor { margin-top: 50px; } 
+#sec1 .txt_box { position: absolute; right: -200px; bottom: 0; width: 860px; height: 330px; padding-top: 50px; padding-left: 270px; box-sizing: border-box; font-size: 20px; color: #fff; border-radius: 0 100px; background-color: #3E352F;opacity: 0;transition: all 0.5s ease-in;}
+#sec1 .txt_box em { color: #FFEFB8;} 
+#sec1 .img_box { position: absolute; left: -200px; top: 0;opacity: 0;transition: all 0.5s ease-in; } 
+
+
+
+/********************* 섹션2 영역 *********************/
+#sec2 .txt_area { margin-left: 314px; } 
+#sec2 .swiper-container { background-color: #E5D8C9; margin-top: 80px; padding: 30px 0; } 
+#sec2 .menu_wrap { width: 1109px;  bottom: -100px;margin: 80px auto 0; position: relative; overflow: visible;opacity: 0;transition: all 0.5s ease-in;} 
+#sec2 .menu_wrap .swiper-wrapper { width: 100%;} 
+#sec2 .menu_wrap .swiper-button-next { width: 30px; height: 30px; right: -77px; background: url(../images/ico_right.svg) no-repeat; } 
+#sec2 .menu_wrap .swiper-button-next::after { display: none; } 
+
+#sec2 .menu_wrap .swiper-button-prev { width: 30px; height: 30px; left: -77px; background: url(../images/ico_left.svg) no-repeat; } 
+#sec2 .menu_wrap .swiper-button-prev::after { display: none; } 
+
+/********************* 섹션3 영역 *********************/
+/* 섹션 3 공통부분 */
+#sec3{height: 370px;}
+#sec3 .box { width: 530px; height: 370px; padding: 50px; box-sizing: border-box; } 
+#sec3 .box>h2 { font-size: 34px; font-weight: 700; } 
+#sec3 .box>p { font-size: 28px; padding:56px 0; } 
+#sec3 .box>p span { font-weight: 700; } 
+
+
+#sec3 .store_box {position: absolute;left: -200px;top: 50%;transform: translateY(-50%);border: 5px solid #3A4C22; border-radius: 0 150px 0 0;transition: all 0.5s ease-in; } 
+#sec3 .stroe_box>h2 { color: #3A4C22; } 
+#sec3 .stroe_box>input[tupe=text] { border: #3A4C22; } 
+
+#sec3 .store_img { position: absolute; left: 50%; top: 60%; transform: translate(-50%,-50%); z-index: 3;transition: all 0.5s ease-in; } 
+
+#sec3 .frch_box {position: absolute;right: -200px;top: 50%;transform: translateY(-50%); background-color: #3A4C22; border-radius: 150px 0 0 0;transition: all 0.5s ease-in;  } 
+#sec3 .frch_box>h2 { text-align: right; color: #F8F0E8; } 
+#sec3 .frch_box>p { text-align: right; color: white } 
+
+#sec3 .frch_box>.btn_area { float: right; } 
+#sec3 .frch_box>.btn_area>p { display: inline-block; padding-right: 30px; font-size: 18px; line-height: 40px; color: white; } 
+#sec3 .frch_box>.btn_area>button { width: 160px; height: 40px; padding: 0 66px 0 24px; box-sizing: border-box; font-size: 16px; font-weight: 400; color: #3A4C22; background: #F8F0E8 url(../images/ico_store.svg) no-repeat right 24px center; border-radius: 20px; } 
+#sec3 .frch_box>.btn_area>button:hover {background: #FFEFB8 url(../images/ico_store.svg) no-repeat right 24px center; border-radius: 20px; } 
+
