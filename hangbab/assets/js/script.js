@@ -51,7 +51,7 @@ window.onload = function () {
 
     tabMenuLi.on('click', function (e) {
         const href = $(this).children('a').attr('href');
-        const menuChosse = $(href);
+        const menuChosse = $('#' + href);
 
         e.preventDefault();
 
@@ -61,6 +61,25 @@ window.onload = function () {
         menuContents.hide();
         menuChosse.slideDown(300);
     });
+
+    
+    /****************메뉴 페이지******************/
+    //메뉴 tab을 누르면 상단 내용 변경
+
+    const menuLi = $(".menu_li span")
+    const menuKo = $(".menu_ko")
+    const menuEn = $(".menu_en")
+
+    $('#tab_menu li a').click(function(){
+        let koText = $(this).text();
+        let enText = $(this).attr('href');
+
+        $(menuLi).text(koText)
+        $(menuKo).text(koText)
+        $(menuEn).text(enText)
+
+    })
+    
 
 
 
@@ -231,6 +250,9 @@ window.onload = function () {
             $('#userPhone').css({ 'border-color': '#8B8B8B', 'background': '#fff' })
         }
     })
+
+
+
 
 
     /****************매장 검색 페이지******************/
