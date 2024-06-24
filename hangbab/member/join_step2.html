@@ -82,7 +82,7 @@
                 </ol>
             </div>
             
-            <form action="" name="" id="" onsubmit="" >
+            <form>
                 <fieldset>
                     <legend>필수정보입력 폼</legend>
                     <div class="form_box">
@@ -90,30 +90,30 @@
                         <div class="inp_row row">
                             <label for="userId">아이디</label>
                             <p class="inp_txt">
-                                <input type="text" name="" id="userId" placeholder="아이디 입력 (영문, 숫자 8자 이상)">
+                                <input type="text" id="userId" placeholder="아이디 입력 (영문, 숫자 8자 이상)">
                                 <button type="button" class="btn_dbchk">중복확인</button>
-                                <p class="err_msg j2_id_msg">에러 메세지</p>
+                                <span class="err_msg j2_id_msg">에러 메세지</span>
                             </p>
                         </div>
                         <div class="inp_row row">
-                            <label for="pw">비밀번호</label>
+                            <label for="pw1">비밀번호</label>
                             <p class="inp_txt">
-                                <input type="password" name="" id="pw1" placeholder="비밀번호 입력(영문대문자·숫자 조합 8자 이상)">
-                                <p class="err_msg j2_pw1_msg">에러 메세지</p>
+                                <input type="password" id="pw1" placeholder="비밀번호 입력(영문대문자·숫자 조합 8자 이상)">
+                                <span class="err_msg j2_pw1_msg">에러 메세지</span>
                             </p>
                         </div>
                         <div class="inp_row row">
                             <label for="pw2">비밀번호 재입력</label>
                             <p class="inp_txt">
-                                <input type="password" name="" id="pw2" placeholder="비밀번호 입력확인">
-                                <p class="err_msg j2_pw2_msg">에러 메세지</p>
+                                <input type="password" id="pw2" placeholder="비밀번호 입력확인">
+                                <span class="err_msg j2_pw2_msg">에러 메세지</span>
                             </p>
                         </div>
                         <div class="inp_row row">
                             <label for="userPhone">휴대폰번호</label>
                             <p class="inp_txt">
-                                <input type="tel" name="" id="userPhone" placeholder="휴대폰번호 입력(하이픈’-’없이 입력)">
-                                <p class="err_msg j2_phone_msg">에러 메세지</p>
+                                <input type="tel" id="userPhone" placeholder="휴대폰번호 입력(하이픈’-’없이 입력)">
+                                <span class="err_msg j2_phone_msg">에러 메세지</span>
                             </p>
                         </div>
                     </div>

@@ -1,11 +1,11 @@
-@charset 'utf-8';/* 한글 깨지지 않게 해주는 코드 */
+@charset "utf-8";/* 한글 깨지지 않게 해주는 코드 */
 
 /* 폰트 */
 @import url('https://webfontworld.github.io/score/SCoreDream.css');
-body { font-family: 'SCoreDream'; font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5; color: #000; } 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* 초기화 */
+body { font-family: 'SCoreDream'; font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5; color: #000; } 
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,p,fieldset { margin: 0; padding: 0; } 
 header,nav,section,article,aside,footer { display: block; } 
 fieldset,button { border: 0; } 

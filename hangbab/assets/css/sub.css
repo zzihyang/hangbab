@@ -96,7 +96,7 @@
 .store_box .lst ul li:nth-child(3) {background: url(../images/store_img3.png)no-repeat 20px ;} 
 .store_box .lst ul li:hover{background-color: #fff4cc;}
 .store_box .lst ul li strong { display: block; font-size: 15px; font-weight: 700;line-height: 1;} 
-.store_box .lst ul li .info { font-size: 12px;font-weight: 400;line-height: 1;pd } 
+.store_box .lst ul li .info { font-size: 12px;font-weight: 400;line-height: 1; } 
 .store_box .lst ul li .info span { display: block; } 
 .store_box .lst ul li .info span + span {margin-top: 10px;} 
 
@@ -151,6 +151,7 @@
 .nutrient caption { position: absolute; left: -9999px; } 
 .nutrient h2 { font-size: 24px; font-weight: 600; text-align: center; margin-bottom: 20px; } 
 .nutrient table { border-top: 3px solid #000; width: 100%; border-collapse: collapse; } 
+.nutrient col {width: 12.5%;}
 .nutrient table th { border-bottom: 1px solid #000; font-size: 18px; font-weight: 500; padding: 20px 0; } 
 .nutrient table td { border-bottom: 1px solid #000; font-size: 18px; text-align: center; padding: 20px 0; } 
 
